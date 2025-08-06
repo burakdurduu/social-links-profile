@@ -14,7 +14,7 @@
   letter-spacing: var(--text-preset-2-letter-spacing);
 }
 
-.text-preset-2 {
+.text-preset-2-bold {
   font-family: var(--font-family-base);
   font-size: var(--text-preset-2-bold-font-size);
   font-weight: var(--text-preset-2-bold-font-weight);
