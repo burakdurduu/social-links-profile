@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
+  font-weight: 400 600 700;
+  font-display: swap;
+}
+
+:root {
+  /* Colors */
+  --color-grey-900: #141414;
+  --color-grey-800: #1f1f1f;
+  --color-grey-700: #333333;
+  --color-green: #c4f8a2;
+  --color-white: #ffffff;
+
+  /* Typography Presets */
+  --font-family-base: "Inter", system-ui, sans-serif;
+  --text-preset-1-font-size: 1.5rem;
+  --text-preset-1-font-weight: 700;
+  --text-preset-1-line-height: 1.5;
+  --text-preset-1-letter-spacing: 0rem;
+  --text-preset-2-font-size: 0.875rem;
+  --text-preset-2-font-weight: 400;
+  --text-preset-2-line-height: 1.5;
+  --text-preset-2-letter-spacing: 0rem;
+  --text-preset-3-font-size: 0.875rem;
+  --text-preset-3-font-weight: 700;
+  --text-preset-3-line-height: 1.5;
+  --text-preset-3-letter-spacing: 0rem;
+
+  /* Spacing */
+  --spacing-50: 0.25rem;
+  --spacing-100: 0.5rem;
+  --spacing-150: 0.75rem;
+  --spacing-200: 1rem;
+  --spacing-300: 1.5rem;
+  --spacing-500: 2.5rem;
+}
