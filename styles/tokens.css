@@ -23,10 +23,10 @@
   --text-preset-2-font-weight: 400;
   --text-preset-2-line-height: 1.5;
   --text-preset-2-letter-spacing: 0rem;
-  --text-preset-3-font-size: 0.875rem;
-  --text-preset-3-font-weight: 700;
-  --text-preset-3-line-height: 1.5;
-  --text-preset-3-letter-spacing: 0rem;
+  --text-preset-2-bold-font-size: 0.875rem;
+  --text-preset-2-bold-font-weight: 700;
+  --text-preset-2-bold-line-height: 1.5;
+  --text-preset-2-bold-letter-spacing: 0rem;
 
   /* Spacing */
   --spacing-50: 0.25rem;
