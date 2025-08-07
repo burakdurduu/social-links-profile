@@ -1,0 +1,60 @@
+.card-wrapper {
+  background-color: var(--color-grey-800);
+  color: var(--color-white);
+  border-radius: var(--spacing-150);
+  max-width: 20.4375rem;
+  padding: var(--spacing-300);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-300);
+  margin-inline: var(--spacing-300);
+}
+
+.profile-pic {
+  border-radius: 50%;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: var(--spacing-50);
+}
+
+.card-header .description {
+  color: var(--color-green);
+}
+
+.links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: var(--spacing-200);
+}
+
+.links li a:visited {
+  color: var(--color-white);
+}
+
+.links li a {
+  display: block;
+  min-width: 17.4375rem;
+  min-height: 2.8125rem;
+  border-radius: var(--spacing-100);
+  background-color: var(--color-grey-700);
+  color: var(--color-white);
+  text-decoration: none;
+  align-content: center;
+  transition: background-color 0.6s ease, color 0.6s ease;
+}
+
+.links li a:hover {
+  color: black;
+  background-color: var(--color-green);
+}
