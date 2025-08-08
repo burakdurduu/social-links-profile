@@ -38,11 +38,7 @@
   gap: var(--spacing-200);
 }
 
-.links li a:visited {
-  color: var(--color-white);
-}
-
-.links li a {
+.links a {
   display: block;
   min-width: 17.4375rem;
   min-height: 2.8125rem;
@@ -60,13 +56,20 @@
   transition-duration: 0.05s;
 }
 
+/* Remove animations to respect user preference */
+@media (prefers-reduced-motion: reduce) {
+  .links a {
+    transition: none;
+  }
+}
+
 @media screen and (min-width: 30rem) {
   .card-wrapper {
     min-width: 24rem;
     margin-inline: 0;
   }
 
-  .links li a {
+  .links a {
     min-width: 19rem;
   }
 }
