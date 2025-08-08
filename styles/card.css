@@ -58,3 +58,14 @@
   color: black;
   background-color: var(--color-green);
 }
+
+@media screen and (min-width: 30rem) {
+  .card-wrapper {
+    min-width: 24rem;
+    margin-inline: 0;
+  }
+
+  .links li a {
+    min-width: 19rem;
+  }
+}
